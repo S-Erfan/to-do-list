@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2>To Do List</h2>
+    </header>
+    <div class="container">
+        <div class="int">
+            <input type="text" id="work" placeholder="Enter Text">
+            <button type="submit" id="todobtn"><i class="fas fa-plus"></i></button>
+            <select class="myselect">
+                <option value="all" id="all">All</option>
+                <option value="completed" id="completed">Completed</option>
+                <option value="uncompleted" id="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+        <div class="list">
+            <ul></ul>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
